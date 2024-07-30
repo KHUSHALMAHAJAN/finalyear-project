@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24112d;
+}
+
+h3 {
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #e4e3ef;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.contain {
+    background-color: #3a255d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(248, 247, 247);
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    border: 2px solid rgb(10, 9, 9);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+
+.input-field {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-field input[type="text"],
+.input-field input[type="number"],
+.input-field select {
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: rgb(6, 4, 62);
+    background-color: #e4e3ef;
+    font-size: 18px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0 5px;
+}
+
+.radio-group label {
+    margin: 0 10px;
+}
+
+input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 90%;
+    border: none;
+    outline: 0;
+    background-color: #3a255d;
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #583969;
+}
+
+#price {
+    font-size: 26px;
+}
+
+.block {
+    display: inline;
+    //  background-color: #24112d;
+}
